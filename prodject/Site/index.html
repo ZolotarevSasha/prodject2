@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home work</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital@1&family=Source+Sans+Pro&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./resources/js/libs/slick/slick.css">
+	<link rel="stylesheet" href="./resources/js/libs/slick/slick-theme.css">
+​
+	<link rel="stylesheet" href="./resources/styles/main.css">
+​
+</head>
+​
+<body>
+​
+	<header class="header">
+		<div class="header__navigation navigation-bar">
+			<div class="navigation-bar__logo logo"></div>
+			<nav class="navigation-bar__navigation navigation">
+				<ul class="navigation__list">
+					<li>
+						<input id="about" type="radio" name="radio">
+						<label class="navigation__item" for="about">
+							About us
+						</label>
+					</li>
+					<li>
+						<input id="project" type="radio" name="radio">
+						<label class="navigation__item" for="about">
+							Projects
+						</label>
+					</li>
+					<li>
+						<input id="news" type="radio" name="radio">
+						<label class="navigation__item" for="about">
+							News
+						</label>
+					</li>
+					<li>
+						<input id="contact" type="radio" name="radio">
+						<label class="navigation__item" for="about">
+							Contact
+						</label>
+					</li>
+				</ul>
+			</nav>
+			<div class="navigation-bar__contacts contacts">
+				<a href="https://www.facebook.com/" target="_blank">
+					<div class="contacts__logo facebook"></div>
+				</a>
+				<a href="https://twitter.com/" target="_blank">
+					<div class="contacts__logo twitter"></div>
+				</a>
+				<a href="https://www.instagram.com/" target="_blank">
+					<div class="contacts__logo instagram"></div>
+				</a>
+			</div>
+		</div>
+​
+		<h1 class="header__caption">SIMPLE & MODERN</h1>
+		<h3 class="header__description">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h3>
+		<a class="arrow-button header__arrow-down" direction="down"></a>
+		<div class="header__dots dots" alignment="vertical">
+			<div class="dots__dot dots__dot--selected"></div>
+			<div class="dots__dot"></div>
+			<div class="dots__dot"></div>
+			<div class="dots__dot"></div>
+			<div class="dots__dot"></div>
+		</div>
+	</header>
+	<div class="about">
+		<h2 class="about__caption">WHAT WE DO</h2>
+		<div class="about__project project">
+			<div class="project__image-container image-container">
+				<div class="image-container__rectangle"></div>
+				<div class="image-container__image"></div>
+			</div>
+			<div class="project__description-contanier description-contanier">
+				<span class="description-contanier__caption-1">One world</span>
+				<span class="description-contanier__caption-2">Trade Center</span>
+				<span class="description-contanier__description">Increasing prosperity in our lives can be accomplished
+					by having the right frame of mind. The truth is, our thoughts are very powerful.</span>
+				<button class="description-contanier__button button">More Details</button>
+​
+				<span class="description-contanier__location"><img class="description-contanier__geo"
+						src="./resources/assets/ico_geo.png" alt="ico_geo"> New York City, United States - 1776 feet
+				</span>
+			</div>
+		</div>
+		<div class="about__project project">
+			<div class="project__image-container image-container">
+				<div class="image-container__rectangle"></div>
+				<div class="image-container__image"></div>
+			</div>
+			<div class="project__description-contanier description-contanier">
+				<span class="description-contanier__caption-1">International</span>
+				<span class="description-contanier__caption-2">Commerce Centre</span>
+				<span class="description-contanier__description">Successful businesses have many things in common, today
+					we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</span>
+				<button class="description-contanier__button button">More Details</button>
+				<span class="description-contanier__location"><img class="description-contanier__geo"
+						src="./resources/assets/ico_geo.png" alt="ico_geo">Hong Kong - 1588 feet</span>
+			</div>
+		</div>
+	</div>
+​
+	<div class="latest-news">
+		<h2 class="latest-news__caption">Latest News</h2>
+		<div class="latest-news__items">
+<!--			<a class="arrow-button latest-news__arrow-button" direction="left"></a>-->
+			<div class="slider" id="slider">
+				<div class="news-item news-1">
+					<div class="news-item__image"></div>
+					<div class="news-item__main">
+						<span class="news-item__caption">See the unmatched beauty of the great.</span>
+						<span class="news-item__description">Free directories: directories are perfect for customers that
+						are searching for...</span>
+						<div class="news-item__subscription subscription">
+							<div class="subscription__image">
+							</div>
+							<span class="subscription__author">
+							Alja Brun
+						</span>
+							<span class="subscription__date">
+							20 Jan 2020
+						</span>
+						</div>
+					</div>
+				</div>
+​
+				<div class="news-item news-2">
+					<div class="news-item__image"></div>
+					<div class="news-item__main">
+						<span class="news-item__caption">See the unmatched beauty of the great.</span>
+						<span class="news-item__description">Free directories: directories are perfect for customers that
+						are searching for...</span>
+						<div class="news-item__subscription subscription">
+							<div class="subscription__image">
+							</div>
+							<span class="subscription__author">
+							Alja Brun
+						</span>
+							<span class="subscription__date">
+							20 Jan 2020
+						</span>
+						</div>
+					</div>
+				</div>
+​
+				<div class="news-item news-3">
+					<div class="news-item__image"></div>
+					<div class="news-item__main">
+						<span class="news-item__caption">See the unmatched beauty of the great.</span>
+						<span class="news-item__description">Free directories: directories are perfect for customers that
+						are searching for...</span>
+						<div class="news-item__subscription subscription">
+							<div class="subscription__image">
+							</div>
+							<span class="subscription__author">
+							Alja Brun
+						</span>
+							<span class="subscription__date">
+							20 Jan 2020
+						</span>
+						</div>
+					</div>
+				</div>
+​
+				<div class="news-item news-1">
+					<div class="news-item__image"></div>
+					<div class="news-item__main">
+						<span class="news-item__caption">See the unmatched beauty of the great.</span>
+						<span class="news-item__description">Free directories: directories are perfect for customers that
+						are searching for...</span>
+						<div class="news-item__subscription subscription">
+							<div class="subscription__image">
+							</div>
+							<span class="subscription__author">
+							Alja Brun
+						</span>
+							<span class="subscription__date">
+							20 Jan 2020
+						</span>
+						</div>
+					</div>
+				</div>
+​
+				<div class="news-item news-2">
+					<div class="news-item__image"></div>
+					<div class="news-item__main">
+						<span class="news-item__caption">See the unmatched beauty of the great.</span>
+						<span class="news-item__description">Free directories: directories are perfect for customers that
+						are searching for...</span>
+						<div class="news-item__subscription subscription">
+							<div class="subscription__image">
+							</div>
+							<span class="subscription__author">
+							Alja Brun
+						</span>
+							<span class="subscription__date">
+							20 Jan 2020
+						</span>
+						</div>
+					</div>
+				</div>
+				<div class="news-item news-3">
+					<div class="news-item__image"></div>
+					<div class="news-item__main">
+						<span class="news-item__caption">See the unmatched beauty of the great.</span>
+						<span class="news-item__description">Free directories: directories are perfect for customers that
+						are searching for...</span>
+						<div class="news-item__subscription subscription">
+							<div class="subscription__image">
+							</div>
+							<span class="subscription__author">
+							Alja Brun
+						</span>
+							<span class="subscription__date">
+							20 Jan 2020
+						</span>
+						</div>
+					</div>
+				</div>
+​
+			</div>
+​
+<!--			<a class="arrow-button latest-news__arrow-button" direction="right"></a>-->
+​
+		</div>
+<!--		<div class="latest-news__dots dots" alignment="horizontal">-->
+<!--			<div class="dots__dot dots__dot&#45;&#45;selected"></div>-->
+<!--			<div class="dots__dot"></div>-->
+<!--			<div class="dots__dot"></div>-->
+<!--			<div class="dots__dot"></div>-->
+<!--			<div class="dots__dot"></div>-->
+<!--		</div>-->
+	</div>
+	<div class="gallery">
+		<h2 class="gallery__caption">Gallery</h2>
+		<div class="gallery__container">
+			<div class="gallery__item-1"></div>
+			<div class="gallery__item-2"></div>
+			<div class="gallery__item-3"></div>
+			<div class="gallery__item-4"></div>
+			<div class="gallery__item-5"></div>
+		</div>
+		<button class="gallery__button button">See more</button>
+	</div>
+	<div class="contact">
+		<div class="contact__map">
+​
+		</div>
+		<div class="contact__form">
+			<h2 class="form__header">Get in touch</h2>
+			<div class="form__data">
+				<div class="form__contacts">
+					icon 91 Nolan Extensions Suite 670<br />
+					icon +001 356-868-2454<br />
+					icon montichello@service.com <br />
+					From 07:05AM to 19:30PM<br />
+				</div>
+				<div class="form__fields">
+					<input class="field" type="text" placeholder="Name">
+					<input class="field" type="text" placeholder="Email">
+					<button class="button">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer__fut">
+		<div class="fut__block">
+			<img class="fut__logo" src="./resources/assets/site-logo.png" alt="logo">
+			<p class="fut__copy">Copyrights © 2020 Montichello</p>
+			<div class="fut__contactsFut contactsFut">
+				<a href="https://www.facebook.com/" target="_blank">
+					<div class="contactsFut__nav facebook"></div>
+				</a>
+				<a href="https://twitter.com/" target="_blank">
+					<div class="contactsFut__nav twitter"></div>
+				</a>
+				<a href="https://www.instagram.com/" target="_blank">
+					<div class="contactsFut__nav instagram"></div>
+				</a>
+			</div>
+		</div>
+	</footer>​
+
+	<style type="text/css">
+
+	</style>
+
+<!--	<script type="text/javascript" src="./resources/js/libs/jquery/jquery-1.11.0.min.js"></script>-->
+<!--	<script type="text/javascript" src="./resources/js/libs/jquery/jquery-migrate-1.2.1.min.js"></script>-->
+	<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./resources/js/libs/slick/slick.min.js"></script>
+
+	<script type="text/javascript" src="./resources/js/main.js"></script>
+
+</body>
+
+</html>
